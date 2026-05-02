@@ -37,6 +37,7 @@ All environments are isolated.
 
 ## 📁 Structure
 
+```text
 terraform-multi-env-aws-infra/
 ├── main.tf
 ├── variables.tf
@@ -53,7 +54,7 @@ terraform-multi-env-aws-infra/
 ├── .gitignore
 ├── README.md
 └── LICENSE
-
+```
 ---
 
 ## 🚀 How to Run
