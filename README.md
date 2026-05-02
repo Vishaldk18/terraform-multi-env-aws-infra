@@ -39,10 +39,20 @@ All environments are isolated.
 
 terraform-multi-env-aws-infra/
 ├── main.tf
-├── modules/
+├── variables.tf
+├── outputs.tf
+├── providers.tf
+├── locals.tf
 ├── dev.tfvars
 ├── staging.tfvars
 ├── prod.tfvars
+├── modules/
+│   ├── vpc/
+│   ├── security-group/
+│   └── ec2-instance/
+├── .gitignore
+├── README.md
+└── LICENSE
 
 ---
 
